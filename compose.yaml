@@ -1,0 +1,38 @@
+# Запуск всей системы:   docker compose up -d --build
+# Логи:                  docker compose logs -f
+# Остановка:             docker compose down
+#
+# Перед первым запуском остановите PM2-процессы (uptime-kuma, telegram-status-bot):
+# две копии на одной базе/одном токене дадут дубли уведомлений и конфликт getUpdates.
+
+name: uptime
+
+services:
+  uptime-kuma:
+    build:
+      context: ./uptime-kuma
+      dockerfile: ../docker/kuma.Dockerfile
+    image: uptime-kuma-custom:2.5.3
+    container_name: uptime-kuma
+    restart: unless-stopped
+    environment:
+      # Аналог --use-system-ca из PM2: доверять системным CA контейнера
+      NODE_OPTIONS: --use-system-ca
+    volumes:
+      - ./data:/app/data
+    ports:
+      # Для доступа только с этой машины замените на "127.0.0.1:3001:3001"
+      - "${KUMA_PORT:-3001}:3001"
+
+  telegram-status-bot:
+    build: ./telegram-status-bot
+    image: telegram-status-bot:1.0.0
+    container_name: telegram-status-bot
+    restart: unless-stopped
+    env_file:
+      - ./telegram-status-bot/.env
+    environment:
+      # Внутри сети compose Kuma доступна по имени сервиса
+      KUMA_URL: http://uptime-kuma:3001
+    depends_on:
+      - uptime-kuma

@@ -1,0 +1,569 @@
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processTimers (node:internal/timers:615:9)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:644:9)
+    at process.processTimers (node:internal/timers:618:7)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.findOne (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:499:19)
+    at async Proxy.updateTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1299:27)
+    at async Proxy.handleTlsInfo (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:2113:9)
+    at async TLSSocket.<anonymous> (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:643:29) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-10 09:28:01] KnexTimeoutError: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+    at Client_SQLite3.acquireConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\client.js:332:26)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processTimers (node:internal/timers:615:9)
+    at async Runner.ensureConnection (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:305:28)
+    at async Runner.run (C:\UptimeKuma\uptime-kuma\node_modules\knex\lib\execution\runner.js:30:19)
+    at async RedBeanNode.storeCore (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:141:17)
+    at async RedBeanNode.store (C:\UptimeKuma\uptime-kuma\node_modules\redbean-node\dist\redbean-node.js:110:20)
+    at async UptimeCalculator.update (C:\UptimeKuma\uptime-kuma\server\uptime-calculator.js:315:9)
+    at async beat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1056:32)
+    at async runBeat (C:\UptimeKuma\uptime-kuma\server\model\monitor.js:1107:9) {
+  sql: undefined,
+  bindings: undefined
+}
+[2026-11-19 16:20:40] Error: Unable to acquire a connection
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:311:13)
+    at Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:305:46)
+    at Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:30)
+    at Target.then (/app/node_modules/knex/lib/builder-interface-augmenter.js:24:43)
+[2026-11-19 16:20:40] Error: Unable to acquire a connection
+    at Client_SQLite3.acquireConnection (/app/node_modules/knex/lib/client.js:311:13)
+    at Runner.ensureConnection (/app/node_modules/knex/lib/execution/runner.js:305:46)
+    at Runner.run (/app/node_modules/knex/lib/execution/runner.js:30:30)
+    at Target.then (/app/node_modules/knex/lib/builder-interface-augmenter.js:24:43)

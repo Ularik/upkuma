@@ -1,0 +1,5 @@
+﻿Uptime Kuma: 2.5.3
+Node.js: 24.20.0
+npm: 11.19.0
+PM2: 7.0.4
+Operating system: Windows (исходная система)
